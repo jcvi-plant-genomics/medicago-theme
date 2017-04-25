@@ -60,15 +60,6 @@ border-radius: 7px;
   margin-top: 10px;
   margin-bottom: 0px;
 }
-.lead {
-  margin-bottom: 20px;
-  margin-left:30px;
-  padding-left:26px;
-  font-size: 16px;
-  font-weight: 200;
-  line-height: 1.4;
-  color: #C2C2C2;
-}
 
 /* END NAGIVATION MENU */
 
@@ -245,24 +236,13 @@ border-radius: 7px;
   border-left: 5px solid transparent;
 }
 
-.menu-472 {
-  background-image:url("../images/menu_icons/home_icon_small.png");
-  background-repeat: no-repeat;
-  background-position: center top;
-  margin-top:5px;
-
-  /* outer shadows  (note the rgba is red, green, blue, alpha) */
-  -webkit-box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.4); 
-  -moz-box-shadow: 0px 1px 6px rgba(23, 69, 88, .5);
-
-  /* rounded corners */
-  -webkit-border-radius: 12px;
-  -moz-border-radius: 7px; 
-  border-radius: 7px;
-}
-
-.menu-437 {
-  background-image:url("../images/menu_icons/downloads_icon_small.png");
+.menu-428,
+.menu-436,
+.menu-437,
+.menu-472,
+.menu-670,
+.menu-673
+{
   background-repeat: no-repeat;
   background-position: center top;
   margin-top:5px;
@@ -278,35 +258,27 @@ border-radius: 7px;
 }
 
 .menu-428 {
-  background-image:url("../images/menu_icons/details_icon_small.png");
-  background-repeat: no-repeat;
-  background-position: center top;
-  margin-top:5px;
-
-  /* outer shadows  (note the rgba is red, green, blue, alpha) */
-  -webkit-box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.4); 
-  -moz-box-shadow: 0px 1px 6px rgba(23, 69, 88, .5);
-
-  /* rounded corners */
-  -webkit-border-radius: 12px;
-  -moz-border-radius: 7px; 
-  border-radius: 7px;
+  background-image:url("../images/menu_icons/search_icon_small.png");
 }
 
 .menu-436 {
-  background-image:url("../images/menu_icons/resources_icon_small.png");
-  background-repeat: no-repeat;
-  background-position: center top;
-  margin-top:5px;
+  background-image:url("../images/menu_icons/tools_icon_small.png");
+}
 
-  /* outer shadows  (note the rgba is red, green, blue, alpha) */
-  -webkit-box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.4); 
-  -moz-box-shadow: 0px 1px 6px rgba(23, 69, 88, .5);
+.menu-437 {
+  background-image:url("../images/menu_icons/downloads_icon_small.png");
+}
 
-  /* rounded corners */
-  -webkit-border-radius: 12px;
-  -moz-border-radius: 7px; 
-  border-radius: 7px;
+.menu-472 {
+  background-image:url("../images/menu_icons/home_icon_small.png");
+}
+
+.menu-670 {
+  background-image:url("../images/menu_icons/about_icon_small.png");
+}
+
+.menu-673 {
+  background-image:url("../images/menu_icons/community_icon_small.png");
 }
 
 /* END MENU*/

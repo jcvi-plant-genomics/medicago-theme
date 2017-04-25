@@ -5,6 +5,9 @@
  * template.php
  */
 
+/* Enable jquery.ui tabs functionality */
+drupal_add_library('system', 'ui.tabs');
+
 /**
  * Overrides theme_menu_link().
  */
