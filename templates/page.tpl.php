@@ -170,17 +170,6 @@
   </div>
 </div>
 
-
-
-
 <footer class="footer container">
-
-  <span>Powered by <a href="http://drupal.org"><img src="<?php print '../' . drupal_get_path('theme', 'medicago') . '/images/page_images/DRUPAL_LOGO.jpg'; ?>" /></a></span>
-   <a href="http://tripal.info"> <img src="<?php print '../' . drupal_get_path('theme', 'medicago') . '/images/page_images/TripalLogo_dark.png'; ?>" /> </a>
-   <a href="http://www.jcvi.org"> <img src="<?php print '../' . drupal_get_path('theme', 'medicago') . '/images/page_images/JCVI_LOGO.jpg'; ?>" /> </a>
-   <a href="http://www.nsf.gov"><img src="<?php print '../' . drupal_get_path('theme', 'medicago') . '/images/page_images/nsf.jpg'; ?>" /> </a>
-
+  <?php print render($page['footer']); ?>
 </footer>
-
-
-
