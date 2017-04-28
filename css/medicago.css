@@ -1,8 +1,9 @@
 /* BANNER */
 
 .main_banner {
-    display:block;
-    margin:0 auto;
+    display: block;
+    margin: 0 auto;
+    width: 100%;
     height:113px;
 
 /* outer shadows  (note the rgba is red, green, blue, alpha) */
@@ -43,7 +44,7 @@ border-radius: 7px;
 }
 
 .navbar-header {
-    width: 600px;
+    width: auto;
     margin-top: 0px;
     margin-bottom:0px;
 }
@@ -69,46 +70,21 @@ border-radius: 7px;
     padding-right: 10px;
 }
 
-
-.roundedbox_title {
-  padding: 0px 0px 0px 5px;
-  font-size: 18px;
-  font-weight:bold;
-  padding-right: 10px;
-  color:  #707070;
-  font-family: Modern;
-  border-bottom: 4px double #4D9900;
+.row-padded {
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
-.roundedbox_bodymain{
-  padding: 10px 0px 0px 10px;
-  width:525px;
-  margin:0px;
-  font-family: Modern;
-  font-size: 16px;
-  text-align:justify;
-  text-justify:inter-word;
+.background-gradient {
+    /* gradients */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, white), color-stop(15%, white), color-stop(100%, #C2EFBD)); 
+    background: -moz-linear-gradient(top, white 0%, white 55%, #D3F3D3 130%); 
 }
 
-.roundedbox_body{
-  font-size: 15px;
-  padding: 5px 5px 10px 5px;
-  font-family: Modern;
-  text-align:justify;
-  text-justify:inter-word;
-}
-
-.roundall_main {
-    width: 965px; 
-    height: 290px;
-    margin-top: 15px;
-    padding-top: 0px;
-    top: 10px; 
-    left: 80px;
-    position:relative;
-    margin-bottom:10px;
-    padding: 20px;
-    background-color: white; 
+.img-rounded {
+    margin: 0 auto;
+    display: block;
+    padding: 2px;
 
     /* outer shadows  (note the rgba is red, green, blue, alpha) */
     -webkit-box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.4); 
@@ -118,89 +94,20 @@ border-radius: 7px;
     -webkit-border-radius: 12px;
     -moz-border-radius: 7px; 
     border-radius: 7px;
-
-    /* gradients */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, white), color-stop(15%, white), color-stop(100%, #C2EFBD)); 
-    background: -moz-linear-gradient(top, white 0%, white 55%, #D3F3D3 130%); 
 }
 
-.frontimage {
+.img-overview {
     height: 220px;
-    float:right;
-
-    /* outer shadows  (note the rgba is red, green, blue, alpha) */
-    -webkit-box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.4); 
-    -moz-box-shadow: 0px 1px 6px rgba(23, 69, 88, .5);
-
-    /* rounded corners */
-    -webkit-border-radius: 12px;
-    -moz-border-radius: 7px; 
-    border-radius: 7px;
 }
 
-.roundall {
-    width: 315px;
-    height:270px;
-    padding: 0px; 
-    top: 10px; 
-    left: 80px;
-    /*border: 4px double #4D9900; 
-    border-radius: 10px;
-    background-position: 0px -9px; 
-    background-repeat: repeat repeat;*/
-    position:relative;
-
-    padding: 20px;
-    background-color: white; 
-
-    /* outer shadows  (note the rgba is red, green, blue, alpha) */
-    -webkit-box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.4); 
-    -moz-box-shadow: 0px 1px 6px rgba(23, 69, 88, .5);
-
-    /* rounded corners */
-    -webkit-border-radius: 12px;
-    -moz-border-radius: 7px; 
-    border-radius: 7px;
-
-    /* gradients */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, white), color-stop(15%, white), color-stop(100%, #C2EFBD)); 
-    background: -moz-linear-gradient(top, white 0%, white 55%, #D3F3D3 130%); 
-
+.panel-body-height-static {
+    height: 225px;
 }
 
-.roundedbox_image {
-    margin: 0 auto;
-    display:block;
-    margin-top: 0px;
-    /*padding-bottom:10px;*/
-
-
-    /* outer shadows  (note the rgba is red, green, blue, alpha) */
-    -webkit-box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.4); 
-    -moz-box-shadow: 0px 1px 6px rgba(23, 69, 88, .5);
-
-    /* rounded corners */
-    -webkit-border-radius: 12px;
-    -moz-border-radius: 7px; 
-    border-radius: 7px;
+/* override bootstrap .media-right */
+.media-right {
+    padding-right: 10px;
 }
-
-.roundedbox_image2 {
-    margin: 0 auto;
-    display:block;
-    margin-top: 0px;
-    padding-bottom:14px;
-
-    /* outer shadows  (note the rgba is red, green, blue, alpha) */
-    -webkit-box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.4); 
-    -moz-box-shadow: 0px 1px 6px rgba(23, 69, 88, .5);
-
-    /* rounded corners */
-    -webkit-border-radius: 12px;
-    -moz-border-radius: 7px; 
-    border-radius: 7px;
-}
-
 /* END BOX STYLING */
 
 
