@@ -70,11 +70,6 @@ border-radius: 7px;
     padding-right: 10px;
 }
 
-.row-padded {
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
 .background-gradient {
     /* gradients */
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, white), color-stop(15%, white), color-stop(100%, #C2EFBD)); 
@@ -107,6 +102,12 @@ border-radius: 7px;
 /* override bootstrap .media-right */
 .media-right {
     padding-right: 10px;
+}
+
+/* override padding over div class="row" */
+.bootstrap-threecol-stacked > div.row {
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 /* END BOX STYLING */
 
